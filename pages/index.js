@@ -4,6 +4,7 @@ import Header2 from "@/components/headers/Header2";
 import Header3 from "@/components/headers/Header3";
 import Header4 from "@/components/headers/Header4";
 import Header5 from "@/components/headers/Header5";
+import HeaderTest from "@/components/headers/HeaderTest";
 import Layout from "@/components/Layout";
 
 const Index = () => {
@@ -11,7 +12,8 @@ const Index = () => {
     <>
       <BreakPoints />
       <Layout>
-        {/* <Header1 />
+        <HeaderTest />
+        {/*
         <Header2 />
         <Header3 />
         <Header5 />
